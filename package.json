@@ -1,0 +1,43 @@
+{
+    "name": "imap-sync-client",
+    "version": "2.1.3",
+    "description": "imap sync client, always promise",
+    "type": "module",
+    "main": "dist/index.mjs",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "node ./script/build.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/mailhonor/node-imap-sync-client.git"
+    },
+    "keywords": [
+        "promise",
+        "imap",
+        "sync",
+        "client"
+    ],
+    "author": {
+        "name": "linuxmail",
+        "email": "eli960@qq.com",
+        "url": "https://github.com/mailhonor/node-imap-sync-client"
+    },
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/mailhonor/node-imap-sync-client/issues"
+    },
+    "homepage": "https://github.com/mailhonor/node-imap-sync-client/",
+    "devDependencies": {
+        "@types/node": "^20.17.21",
+        "typescript": "^5.2.2"
+    },
+    "dependencies": {
+        "eml-parser-buffer": "^1.5.1",
+        "iconv-lite": "^0.6.3",
+        "socket-sync-buffer": "^1.6.1"
+    },
+    "files": [
+        "dist/"
+    ]
+}

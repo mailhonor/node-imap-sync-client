@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "declaration": true,
+    "target": "ES6",
+    "useDefineForClassFields": true,
+    "module": "Node16",
+    "strict": true,
+    "isolatedModules": false,
+    "allowSyntheticDefaultImports": true,
+    "noEmit": false,
+    "lib": ["ESNext"],
+    "types": ["node"],
+    "moduleResolution": "node16"
+  },
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./node_modules/**"]
+}
